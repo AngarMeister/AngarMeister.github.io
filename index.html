@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirsi 6-8 korteriühistus </title>
     <style>
-        #more {display: none;}
     </style>
 </head>
 
@@ -16,7 +15,7 @@
         <!--<img src ="/Pics/Kirsi6.jpg" class ="header_image" alt = "Kirsi 6-8 maja" style="height: 256px; width: 1080px">-->
         <nav class ="navigation">
             <ul>
-                <li><a href ="index.html"> Home v2 </a> </li>
+                <li><a href ="index.html"> Home 3v2 </a> </li>
                 <li><a href ="news.html"> Dokumendid </a> </li>
                 <li><a href ="kkk.html"> KKK </a> </li>
                 <li><a href ="about.html"> Meist </a> </li>
@@ -27,13 +26,50 @@
 
     <main class ="main">
         <h3> Home Page</h3>
+    <section>
+        <div class = "postitus">
+            <h1>Post 1</h1>
+            <p class = "content">Lorem ipsum dolor sit amet. Et iusto illo quo natus deleniti quo optio quasi id voluptatibus velit.
+                Eum deserunt molestias qui labore distinctio ut maxime quod qui earum commodi qui consectetur voluptas!
+                Est adipisci unde qui alias voluptates sit odit dolores ut itaque voluptas et recusandae quidem.
+                Sit vitae minus est saepe beatae quo necessitatibus dicta et rerum consequatur hic cumque amet eos quidem quis.
+                Rem perferendis labore est omnis quasi sit provident sunt sed numquam vitae.
+                Ad laborum voluptas qui rerum suscipit in quod assumenda qui quaerat voluptatem quo illum facilis.</p>
 
-        <div class="Para">
-            <h2>Какая-то новость <span id = "date">03/08/2024</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-            <button onclick="Show_More()" id="myBtn">Read more</button>
+            <div class = "hidden-content">
+                <ul>
+                    <li><a href="">Docs 1</a></li>
+                </ul>
+            </div>
+
+            <button class="read_more_button" onclick="readMore(this)"> Read More </button>
         </div>
 
+        <div class = "postitus">
+            <h1>Post 2</h1>
+            <p class = "content">Lorem ipsum dolor sit amet. Et iusto illo quo natus deleniti quo optio quasi id voluptatibus velit.
+                Eum deserunt molestias qui labore distinctio ut maxime quod qui earum commodi qui consectetur voluptas!
+                Est adipisci unde qui alias voluptates sit odit dolores ut itaque voluptas et recusandae quidem.
+                Sit vitae minus est saepe beatae quo necessitatibus dicta et rerum consequatur hic cumque amet eos quidem quis.
+                Rem perferendis labore est omnis quasi sit provident sunt sed numquam vitae.
+                Ad laborum voluptas qui rerum suscipit in quod assumenda qui quaerat voluptatem quo illum facilis.
+            </p>
+            <button class="read_more_button" onclick="readMore(this)"> Read More </button>
+        </div>
+
+        <div class = "postitus">
+            <h1>Post 3</h1>
+            <p class = "content">Lorem ipsum dolor sit amet. Et iusto illo quo natus deleniti quo optio quasi id voluptatibus velit.
+                Eum deserunt molestias qui labore distinctio ut maxime quod qui earum commodi qui consectetur voluptas!
+                Est adipisci unde qui alias voluptates sit odit dolores ut itaque voluptas et recusandae quidem.
+                Sit vitae minus est saepe beatae quo necessitatibus dicta et rerum consequatur hic cumque amet eos quidem quis.
+                Rem perferendis labore est omnis quasi sit provident sunt sed numquam vitae.
+                Ad laborum voluptas qui rerum suscipit in quod assumenda qui quaerat voluptatem quo illum facilis.
+            </p>
+            <button class="read_more_button"onclick="readMore(this)"> Read More </button>
+        </div>
+
+    </section>
     </main>
 
     <footer>

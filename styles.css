@@ -74,3 +74,53 @@ h1{
     font-size: 15px;
     float:right;
 }
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: gray;
+    color:white;
+    padding: 10px 15px;
+    border: 1px;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .year{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+
+}
+.dropdown:hover .year{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 75%);
+}
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+.hide{
+    display: none;
+}
+.read_more_button{
+    border: 1px solid red;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.read_more_button:hover{
+    background-color: hsl(0, 0%, 75%);
+}
+.hidden-content{
+    display: none;
+}
