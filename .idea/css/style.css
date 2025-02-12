@@ -1,0 +1,27 @@
+.navtabs {
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.navtabs a {
+    float: left;
+    color: dimgray;
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.navtabs a:hover {
+    background-color: brown;
+    color: black;
+}
+
+.navtabs a:active {
+    background-color: darkcyan;
+    color: black;
+}
+
+footer{
+    border: 2px solid blue
+}
